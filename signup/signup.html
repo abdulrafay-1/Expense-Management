@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="myalert position-absolute top-0 end-0 mt-3 me-3" id="hide">
+    <div class="myalert position-fixed top-0 end-0 m-3" id="hide">
         <div class="alert alert-warning" role="alert">
 
         </div>
@@ -20,21 +20,15 @@
 
     <h1 class="text-center my-4">Expense Management System</h1>
 
-
-
     <main class="container d-flex justify-content-evenly align-items-center border border-secondary p-4 my-3 rounded-2">
         <div class="row">
-
             <div class="left bg-img-signup col-md-6 col-lg-6">
                 <img src="../Images/Audit-rafiki.png" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 px-4">
+            <div class="col-sm-12 col-md-6 col-lg-6 px-4 d-flex flex-column justify-content-center">
                 <h2 class="text-center">Signup Form</h2>
-                <div class="d-flex justify-content-center">
-                    <img src="../Images/simple-wallet-with-credit-card-inside-free-vector.jpg" alt="logo" class="logo">
-                </div>
-                <form>
-                    <div class=" mb-3">
+                <form class="container">
+                    <div class="mb-3">
                         <label for="exampleInputUsername1" class="form-label">Username</label>
                         <input type="Username" class="form-control" id="exampleInputUsername1" aria-describedby="UsernameHelp">
                     </div>

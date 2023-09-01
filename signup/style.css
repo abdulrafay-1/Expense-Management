@@ -1,10 +1,9 @@
 body {
-    background-color: #e4e4e4 !important;
+    background-color: #eeeeee !important;
 }
 
 .myalert {
     display: none;
-    transition: all ease-in 3s;
 }
 
 .left {
@@ -13,23 +12,9 @@ body {
     justify-content: center;
 }
 
-.bg-img-login {
-    background: url(../Images/bg13.png);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.bg-img-signup {
-    background: url(../Images/bg2.png);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
 .left img {
     width: 100%;
-    mix-blend-mode: multiply;
 }
 
 
@@ -38,20 +23,12 @@ main {
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.logo {
-    width: 110px;
-    mix-blend-mode: multiply;
-    text-align: center;
-}
 
-#showpage {
-    display: block;
-}
-
-#hidepage {
-    display: none !important;
+.btn-primary {
+    background-color: #6c63ff !important;
 }

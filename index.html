@@ -14,102 +14,46 @@
 
     <!-- login -->
 
-    <div id="showpage">
-        <div class="myalert position-absolute top-0 end-0 mt-5 me-4" id="hide">
-            <div class="alert alert-warning" role="alert">
 
-            </div>
+    <div class="myalert position-fixed top-0 end-0 m-3" id="hide">
+        <div class="alert alert-warning" role="alert">
+
         </div>
-
-        <h1 class="text-center my-4">Expense Management System</h1>
-
-        <main class="container d-flex justify-content-evenly align-items-center border border-secondary p-4 my-3 rounded-2">
-            <div class="row">
-
-                <div class="left bg-img-login 3 col-md-6 col-lg-6">
-                    <img src="./Images/undraw_Transfer_money_re_6o1h.png" alt="">
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-6 px-3">
-                    <h2 class="text-center my-3">Login Form</h2>
-                    <div class="d-flex justify-content-center">
-                        <img src="./Images/simple-wallet-with-credit-card-inside-free-vector.jpg" alt="logo" class="logo">
-                    </div>
-                    <form>
-                        <div class=" mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" onclick="showpass()" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Show Password</label>
-                        </div>
-                        <button onclick="login()" onsubmit="return false" id="btn" class="btn btn-primary mb-3 w-100">Login</button>
-                        <div class="mb-3">
-                            Don't have an account ? Click here to
-                            <a href="./signup/signup.html">Sign up</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </main>
     </div>
 
-    <!-- Signup -->
+    <h1 class="text-center my-4">Expense Management System</h1>
 
-    <div id="hidepage">
-        <div class="myalert position-absolute top-0 end-0 mt-3 me-3" id="hide">
-            <div class="alert alert-warning" role="alert">
+    <main class="container d-flex justify-content-evenly align-items-center border border-secondary p-4 my-3">
+        <div class="row">
 
+            <div class="left bg-img-login 3 col-md-6 col-lg-6">
+                <img src="./Images/Marketing consulting-amico.png" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center">
+                <h2 class="text-center my-3">Login Form</h2>
+                <form class="container">
+                    <div class=" mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" onclick="showpass()" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Show Password</label>
+                    </div>
+                    <button onclick="login()" onsubmit="return false" id="btn" class="btn btn-primary mb-3 w-100">Login</button>
+                    <div class="mb-3">
+                        Don't have an account ? Click here to
+                        <a href="./signup/signup.html">Sign up</a>
+                    </div>
+                </form>
             </div>
         </div>
-
-        <h1 class="text-center my-4">Expense Management System</h1>
-
-
-
-        <main class="container d-flex justify-content-evenly align-items-center border border-secondary p-4 my-3 rounded-2">
-            <div class="row">
-
-                <div class="left bg-img-signup col-md-6 col-lg-6">
-                    <img src="../Images/Audit-rafiki.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 px-4">
-                    <h2 class="text-center">Signup Form</h2>
-                    <div class="d-flex justify-content-center">
-                        <img src="../Images/simple-wallet-with-credit-card-inside-free-vector.jpg" alt="logo" class="logo">
-                    </div>
-                    <form>
-                        <div class=" mb-3">
-                            <label for="exampleInputUsername1" class="form-label">Username</label>
-                            <input type="Username" class="form-control" id="exampleInputUsername1" aria-describedby="UsernameHelp">
-                        </div>
-                        <div class=" mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" onclick="showpass()" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Show Password</label>
-                        </div>
-                        <button onclick="signup()" onsubmit="return false" id="btn" class="btn btn-primary mb-3 w-100">Sign up</button>
-                        <div class="mb-3">
-                            Already have an account ? Click here to
-                            <a href="../index.html">Login</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </main>
-    </div>
+    </main>
 
 
 

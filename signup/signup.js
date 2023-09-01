@@ -49,6 +49,9 @@ function signup() {
                 email,
                 password,
             });
+            alertbox.classList.remove("myalert");
+            alertbox.firstElementChild.className = "alert alert-success"
+            alertbox.firstElementChild.innerHTML = "Account created successfully";
             localStorage.setItem("users", JSON.stringify(users));
             clearInput();
         }
@@ -99,6 +102,7 @@ function login() {
         if (checkuser) {
             if (checkuser.password === password) {
                 alertbox.classList.remove("myalert");
+                alertbox.firstElementChild.className = "alert alert-success"
                 alertbox.firstElementChild.innerHTML = "Login successful";
             } else {
                 alertbox.classList.remove("myalert");
